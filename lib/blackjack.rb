@@ -52,12 +52,5 @@ end
 
 def runner
   welcome
-  card_total
-  hit?
-    if card_total < 21
-      hit?
-    else
-      end_game
-    end
 end
     
