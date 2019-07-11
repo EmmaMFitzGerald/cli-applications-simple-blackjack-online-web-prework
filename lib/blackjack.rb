@@ -30,7 +30,7 @@ def initial_round
   return card_total
 end
 
-def hit?(number)
+def hit?(letter)
   prompt_user
   get_user_input
     if get_user_input == "h"
@@ -42,7 +42,7 @@ def hit?(number)
       prompt_user
       get_user_input
     end
-    initial_round
+    display_card_total
 end
 
 def invalid_command
