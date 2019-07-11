@@ -38,6 +38,7 @@ def hit?(card_total)
     card_total += deal_card
   elsif get_user_input == "s"
     card_total
+  else
     invalid_command
   end
 end
@@ -52,7 +53,7 @@ end
 
 def runner
   welcome
-  card_total = initial_round
+  card_total
   hit?
     if card_total < 21
       hit?
