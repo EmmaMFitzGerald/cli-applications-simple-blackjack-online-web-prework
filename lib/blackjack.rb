@@ -30,19 +30,6 @@ def initial_round
   return card_total
 end
 
-def hit?(number)
-  prompt_user
-  get_user_input
-    if get_user_input == "h"
-      number += deal_card
-    elsif get_user_input == "s"
-      card_total
-    else
-      invalid_command
-      prompt_user
-      get_user_input
-    end
-end
 
 def hit?(card_total)
   prompt_user #ask the user if they want to hit or stay
