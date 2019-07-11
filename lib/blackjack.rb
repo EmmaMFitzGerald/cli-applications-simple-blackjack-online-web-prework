@@ -42,7 +42,6 @@ def hit?(letter)
       prompt_user
       get_user_input
     end
-    display_card_total
 end
 
 def invalid_command
