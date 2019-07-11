@@ -44,7 +44,7 @@ end
 
 def invalid_command
    expect($stdout).to receive(:puts).with("Please enter a valid command")
-   prompt_user
+  puts "Please enter a valid command"
 end
 
 #####################################################
