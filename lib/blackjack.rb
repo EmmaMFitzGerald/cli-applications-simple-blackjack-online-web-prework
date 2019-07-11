@@ -44,7 +44,7 @@ end
 
 def invalid_command
   if get_user_input != "h" || "s"
-    puts 
+    puts "Please enter a valid command"
 end
 
 #####################################################
