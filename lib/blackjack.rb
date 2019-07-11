@@ -1,4 +1,4 @@
-require_relative "../lib/blackjack.rb"
+require "../lib/blackjack.rb"
 
 def welcome
   puts "Welcome to the Blackjack Table"
