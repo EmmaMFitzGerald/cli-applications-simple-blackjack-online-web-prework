@@ -36,7 +36,7 @@ def hit?(letter)
     if get_user_input == "h"
       deal_card
     elsif get_user_input == "s"
-    end_game
+      
     else
       invalid_command
       prompt_user
