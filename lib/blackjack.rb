@@ -57,6 +57,7 @@ def runner
     if card_total < 21
       hit?
     else
-  
+      end_game
+    end
 end
     
