@@ -39,11 +39,12 @@ def hit?(number)
     end_game
     else
       invalid_command
+      prompt_user
     end
 end
 
 def invalid_command
-    expect($stdout).to receive(:puts).with("Please enter a valid command")
+   puts "Please enter a valid command"
 end
 
 #####################################################
