@@ -43,8 +43,7 @@ def hit?(number)
 end
 
 def invalid_command
-   expect($stdout).to receive(:puts).with("Please enter a valid command")
-  puts "Please enter a valid command"
+   expect(self).to receive(:get_user_input).and_return("Please enter valid command")
 end
 
 #####################################################
