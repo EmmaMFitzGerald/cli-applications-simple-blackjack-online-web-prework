@@ -43,7 +43,6 @@ def hit?(number)
 end
 
 def invalid_command
-  if get_user_input != "h" || "s"
     puts "Please enter a valid command"
   end
   prompt_user
